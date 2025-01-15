@@ -32,15 +32,14 @@ const About = () => {
       scrollTrigger: {
         trigger: "#clip",
         start: "center center",
-        end: "bottom center",
+        end: "top  center",
         toggleActions: "play none none reverse",
       },
       opacity: 1,
       scale: 1/3,
       duration: 0.5,
-      transform: "translate(-50%, -50%)",
       borderRadius: 20,
-      delay: 0.8,
+      delay: 0.5,
     });
 
     // Animação para o texto abaixo da imagem
@@ -92,15 +91,15 @@ const About = () => {
           <img
             src="img/about2.jpg"
             alt="Background"
-            className="absolute left-1/2 top-1/2 size-fit object opacity-0 scale-0 about-webp"
+            className="absolute left-0 top-0 size-full object-contain opacity-0 about-webp"
             style={{
-              transform: "translate(-50%, -50%)",
+              //transform: "translate(-50%, -50%)",
             }}
           />
 
           {/* Texto abaixo da imagem */}
           <p
-            className="about-text absolute left-1/2 top-[70%] opacity-0 text-white text-center text-lg font-bold transform -translate-x-1/2 translate-y-10"
+            className="about-text absolute left-1/2 bottom-10 opacity-0 text-white text-center text-lg font-bold transform -translate-x-1/2 translate-y-10"
           >
             Linkin Park • From Zero
           </p>
