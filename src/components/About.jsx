@@ -2,7 +2,7 @@ import { useGSAP } from '@gsap/react';
 import React from 'react';
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import Animatedtitle from './Animatedtitle';
+import AnimatedTitle from './AnimatedTitle';
 import { FaSpotify, FaApple } from "react-icons/fa";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -65,7 +65,7 @@ const About = () => {
           Linkin Park | New album
         </h2>
 
-        <Animatedtitle
+        <AnimatedTitle
           title="Rising From Zero <br /> to Redefine Music"
           containerClass="mt-5 !text-black text-center justify-center"
         />

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import About from './About'
 import gsap from 'gsap';
 
-const Animatedtitle = ({ title, containerClass }) => {
+const AnimatedTitle = ({ title, containerClass }) => {
     const containerRef = useRef(null);
 
     useEffect(() => {
@@ -43,4 +43,4 @@ const Animatedtitle = ({ title, containerClass }) => {
   )
 }
 
-export default Animatedtitle
+export default AnimatedTitle
