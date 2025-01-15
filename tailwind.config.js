@@ -29,7 +29,7 @@ export default {
           300: '#EDFF66',
         },
         pink: {
-          100: '#cb5f9b',
+          500: '#cb5f9b',
         }
       }
     },

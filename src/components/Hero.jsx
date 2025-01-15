@@ -149,7 +149,7 @@ const Hero = () => {
                     <p className="mb-5 max-w-64 font-robert-regular text-blue-100">Check out the latest music <br /> video from the new album!</p>
 
                     <a href="https://www.youtube.com/watch?v=7F5MKaJMxDc" target="_blank" rel="noopener noreferrer">
-                    <Button id="watch-trailer"  title="Watch Video" leftIcon={<TiLocationArrow />} containerClass="bg-pink-500 flex-center gap-1 text-white" />
+                    <Button id="watch-trailer"  title="Watch Video" leftIcon={<TiLocationArrow />} containerClass="bg-black flex-center gap-1 text-white" />
                     </a>
 
                 </div>
