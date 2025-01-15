@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { TiLocation, TiLocationArrow } from 'react-icons/ti';
-import Button from './button';
+import Botao from './Botao';
 import { useWindowScroll } from 'react-use';
 import gsap from 'gsap';
 
@@ -68,7 +68,7 @@ const Navbar = () => {
                     <img src="/img/logo.png" alt="logo" className='w-10' />
 
                     <a href="https://store.linkinpark.com/" target="_blank" rel="noopener noreferrer">
-                    <Button 
+                    <Botao 
                     id="product-button"
                     title="Products"
                     rightIcon={<TiLocationArrow />}

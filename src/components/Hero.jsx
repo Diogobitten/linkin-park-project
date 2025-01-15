@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { TiLocationArrow } from 'react-icons/ti';
-import Button from './button';
+import Botao from './Botao';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
@@ -149,7 +149,7 @@ const Hero = () => {
                     <p className="mb-5 max-w-64 font-robert-regular text-blue-100">Check out the latest music <br /> video from the new album!</p>
 
                     <a href="https://www.youtube.com/watch?v=7F5MKaJMxDc" target="_blank" rel="noopener noreferrer">
-                    <Button id="watch-trailer"  title="Watch Video" leftIcon={<TiLocationArrow />} containerClass="flex-center gap-1 text-black" />
+                    <Botao id="watch-trailer"  title="Watch Video" leftIcon={<TiLocationArrow />} containerClass="flex-center gap-1 text-black" />
                     </a>
 
                 </div>
