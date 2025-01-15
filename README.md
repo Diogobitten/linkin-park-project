@@ -30,7 +30,7 @@ Check out the live version on Vercel.
 - `public/img/`: Contains images used in the project.
 
 ---
-## 📸 Screenshots:
+## 🎥 Dynamic Preview
 
 ![Demo](public/img/demo-site.gif)
 
